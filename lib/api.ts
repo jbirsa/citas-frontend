@@ -1,5 +1,5 @@
-//export const API_BASE = "https://citas-backend-ohpp.onrender.com"
-export const API_BASE = "http://localhost:3000"
+export const API_BASE = "https://citas-backend-ohpp.onrender.com"
+//export const API_BASE = "http://localhost:3000"
 
 export type MoneyLevel = "Low" | "Medium" | "High"
 export type TimeOfDay = "Day" | "Afternoon" | "Night"
