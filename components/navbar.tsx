@@ -9,7 +9,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { useAuth } from "@/contexts/auth-context"
 
 export function Navbar() {
-  const { user, token, logout } = useAuth()
+  const { token, logout } = useAuth()
   const pathname = usePathname()
   const router = useRouter()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
